@@ -8,7 +8,7 @@ const leadership = [
     title: 'Co-Director, AIM for Health Lab',
     bio: 'Leading AI research in neurological applications with expertise in multimodal foundation models and clinical AI systems.',
     email: 'zongyuan.ge@monash.edu',
-    image: 'zongyuan-ge.jpg'
+    image: 'public/images/zongyuan-ge.jpg'
   },
   {
     name: 'Dr Deval Mehta',
@@ -16,7 +16,7 @@ const leadership = [
     title: 'Founding Member, AIM for Health Lab',
     bio: 'Specializing in privacy-preserving AI for seizure detection and video-based neurological analysis.',
     email: 'deval.mehta@monash.edu',
-    image: 'deval-mehta.jpg'
+    image: 'public/images/deval-mehta.jpg'
   }
 ];
 
