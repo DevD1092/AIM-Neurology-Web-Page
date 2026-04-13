@@ -53,14 +53,14 @@ export function Hero() {
       </div>
 
       {/* Hero Image */}
-      <div className="absolute right-0 top-1/2 -translate-y-1/2 w-1/2 h-3/4 hidden lg:block">
+      <div className="absolute right-0 top-1/2 -translate-y-1/2 w-1/2 h-3/4 hidden lg:block flex items-center justify-center">
         <motion.img
           src={`${import.meta.env.BASE_URL}images/hero-visual.jpg`}
           alt="NeuroAI Visualization"
           initial={{ opacity: 0, scale: 0.95 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.8, delay: 0.3 }}
-          className="w-full h-full object-contain object-right"
+          className="w-full h-full object-contain object-center"
         />
       </div>
 

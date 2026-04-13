@@ -29,7 +29,7 @@ export function Footer() {
             <div>
               <div className="flex items-center gap-2 mb-4">
                 <Brain className="w-8 h-8 text-blue-400" />
-                <span className="text-xl font-bold">NeuroAI Lab</span>
+                <span className="text-xl font-bold">AIM for Neurology</span>
               </div>
               <p className="text-slate-400 mb-6 leading-relaxed">
                 Advancing neurological care through AI innovation. Building safe, 

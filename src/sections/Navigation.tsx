@@ -78,7 +78,7 @@ export function Navigation() {
             }}
           >
             <Brain className="w-7 h-7 text-blue-600" />
-            <span className="font-semibold text-lg hidden sm:block">NeuroAI Lab</span>
+            <span className="font-semibold text-lg hidden sm:block">AIM for Neurology</span>
           </a>
 
           {/* Desktop Navigation */}
