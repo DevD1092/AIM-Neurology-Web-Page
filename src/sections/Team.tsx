@@ -5,16 +5,18 @@ const leadership = [
   {
     name: 'Associate Professor Zongyuan Ge',
     role: 'Group Lead',
-    title: 'Co-Director, AIM for Health Lab; Country Lead - China',
+    title: 'Co-Director, AIM for Health Lab',
     bio: 'Leading AI research in neurological applications with expertise in multimodal foundation models and clinical AI systems.',
-    email: 'zongyuan.ge@monash.edu'
+    email: 'zongyuan.ge@monash.edu',
+    image: 'zongyuan-ge.jpg'
   },
   {
     name: 'Dr Deval Mehta',
     role: 'Group Lead',
     title: 'Founding Member, AIM for Health Lab',
     bio: 'Specializing in privacy-preserving AI for seizure detection and video-based neurological analysis.',
-    email: ''
+    email: 'deval.mehta@monash.edu',
+    image: 'deval-mehta.jpg'
   }
 ];
 
@@ -64,9 +66,11 @@ export function Team() {
             <StaggerItem key={person.name}>
               <div className="bg-white rounded-2xl p-8 border border-slate-200 hover:shadow-lg transition-all duration-300">
                 <div className="flex items-center gap-4 mb-4">
-                  <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-teal-500 rounded-full flex items-center justify-center text-white text-xl font-bold">
-                    {person.name.split(' ').map(n => n[0]).join('').slice(0, 2)}
-                  </div>
+                  <img
+                    src={`${import.meta.env.BASE_URL}images/team/${person.image}`}
+                    alt={person.name}
+                    className="w-16 h-16 rounded-full object-cover flex-shrink-0"
+                  />
                   <div>
                     <span className="inline-block px-3 py-1 bg-blue-100 text-blue-700 text-xs font-semibold rounded-full mb-2">
                       {person.role}
