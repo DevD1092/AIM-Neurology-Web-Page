@@ -24,17 +24,20 @@ const researchers = [
   {
     name: 'Talha Ilyas',
     role: 'PhD Candidate',
-    bio: 'Researching multimodal AI systems for epilepsy monitoring and clinical decision support.'
+    bio: 'Researching multimodal AI systems for epilepsy monitoring and clinical decision support.',
+    image: 'talha-ilyas.jpeg'
   },
   {
     name: 'Jiahe Liu',
     role: 'PhD Candidate',
-    bio: 'Focusing on foundation models for neuroimaging analysis and therapy planning.'
+    bio: 'Focusing on foundation models for neuroimaging analysis and therapy planning.',
+    image: 'jiahe-liu.jpg'
   },
   {
     name: 'Hongxi Yang',
     role: 'PhD Candidate',
-    bio: 'Developing agentic AI frameworks for real-time clinical support in neurology.'
+    bio: 'Developing agentic AI frameworks for real-time clinical support in neurology.',
+    image: 'hongxi-yang.jpeg'
   }
 ];
 
