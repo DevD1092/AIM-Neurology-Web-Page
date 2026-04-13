@@ -1,5 +1,5 @@
 import { FadeIn, StaggerContainer, StaggerItem } from '@/components/FadeIn';
-import { Mail, GraduationCap } from 'lucide-react';
+import { Mail } from 'lucide-react';
 
 const leadership = [
   {
