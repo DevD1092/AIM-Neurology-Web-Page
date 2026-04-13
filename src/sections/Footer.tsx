@@ -100,7 +100,7 @@ export function Footer() {
         <div className="border-t border-slate-800 pt-8">
           <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
             <p className="text-slate-500 text-sm">
-              &copy; {new Date().getFullYear()} NeuroAI Research Group. All rights reserved.
+              &copy; {new Date().getFullYear()} AIM for Neurology. All rights reserved.
             </p>
             <p className="text-slate-600 text-sm">
               AIM for Health Lab, Monash University

@@ -52,18 +52,6 @@ export function Hero() {
         <div className="absolute bottom-20 left-20 w-96 h-96 bg-teal-200 rounded-full blur-3xl" />
       </div>
 
-      {/* Hero Image */}
-      <div className="absolute right-0 top-1/2 -translate-y-1/2 w-1/2 h-3/4 hidden lg:block flex items-center justify-center">
-        <motion.img
-          src={`${import.meta.env.BASE_URL}images/hero-visual.jpg`}
-          alt="NeuroAI Visualization"
-          initial={{ opacity: 0, scale: 0.95 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.8, delay: 0.3 }}
-          className="w-full h-full object-contain object-center"
-        />
-      </div>
-
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="max-w-2xl">
           {/* Pre-title */}
@@ -84,8 +72,8 @@ export function Hero() {
             className="text-4xl sm:text-5xl lg:text-6xl font-bold text-slate-900 leading-tight mb-6"
           >
             Multimodal Foundation Models for{' '}
-            <span className="text-blue-600">Neurology</span> and{' '}
-            <span className="text-teal-600">Epilepsy</span> Management
+            <span className="text-slate-900">Neurology</span> and{' '}
+            <span className="text-slate-900">Epilepsy</span> Management
           </motion.h1>
 
           {/* Subtitle */}
