@@ -8,7 +8,7 @@ const leadership = [
     title: 'Co-Director, AIM for Health Lab',
     bio: 'Leading AI research in neurological applications with expertise in multimodal foundation models and clinical AI systems.',
     email: 'zongyuan.ge@monash.edu',
-    image: 'public/images/zongyuan-ge.jpg'
+    image: 'zongyuan-ge.jpg'
   },
   {
     name: 'Dr Deval Mehta',
@@ -16,7 +16,7 @@ const leadership = [
     title: 'Founding Member, AIM for Health Lab',
     bio: 'Specializing in privacy-preserving AI for seizure detection and video-based neurological analysis.',
     email: 'deval.mehta@monash.edu',
-    image: 'public/images/deval-mehta.jpg'
+    image: 'deval-mehta.jpg'
   }
 ];
 
@@ -67,7 +67,7 @@ export function Team() {
               <div className="bg-white rounded-2xl p-8 border border-slate-200 hover:shadow-lg transition-all duration-300">
                 <div className="flex items-center gap-4 mb-4">
                   <img
-                    src={`${import.meta.env.BASE_URL}images/team/${person.image}`}
+                    src={`${import.meta.env.BASE_URL}images/${person.image}`}
                     alt={person.name}
                     className="w-16 h-16 rounded-full object-cover flex-shrink-0"
                   />
