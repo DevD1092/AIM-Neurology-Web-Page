@@ -55,7 +55,7 @@ export function Hero() {
       {/* Hero Image */}
       <div className="absolute right-0 top-1/2 -translate-y-1/2 w-1/2 h-3/4 hidden lg:block">
         <motion.img
-          src="/images/hero-visual.jpg"
+          src={`${import.meta.env.BASE_URL}images/hero-visual.jpg`}
           alt="NeuroAI Visualization"
           initial={{ opacity: 0, scale: 0.95 }}
           animate={{ opacity: 1, scale: 1 }}

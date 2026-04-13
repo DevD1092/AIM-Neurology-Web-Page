@@ -124,7 +124,7 @@ export function Team() {
             </h3>
             <div className="relative rounded-2xl overflow-hidden shadow-lg">
               <img
-                src="/images/team-photo.jpg"
+                src={`${import.meta.env.BASE_URL}images/team-photo.jpg`}
                 alt="NeuroAI Research Group Team"
                 className="w-full h-auto object-cover"
               />
