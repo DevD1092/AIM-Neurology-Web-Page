@@ -109,9 +109,11 @@ export function Team() {
             <StaggerItem key={person.name}>
               <div className="bg-white rounded-xl p-6 border border-slate-200 hover:shadow-md hover:-translate-y-1 transition-all duration-300">
                 <div className="flex items-center gap-3 mb-4">
-                  <div className="w-12 h-12 bg-slate-100 rounded-full flex items-center justify-center">
-                    <GraduationCap className="w-6 h-6 text-slate-600" />
-                  </div>
+                  <img
+                    src={`${import.meta.env.BASE_URL}images/${person.image}`}
+                    alt={person.name}
+                    className="w-12 h-12 rounded-full object-cover flex-shrink-0"
+                  />
                   <div>
                     <h4 className="font-semibold text-slate-900">{person.name}</h4>
                     <span className="text-sm text-blue-600">{person.role}</span>
